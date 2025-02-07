@@ -253,7 +253,7 @@ export const portfolioData5 = [
   {
     id: 35,
     imageSrc: "/assets/img/bg/pr.jpeg",
-    link: "/press-releases",
+    link: "/press-release",
     meta: "Press Release",
     title: "Press Release",
     buttonText: "BROWSE ",
