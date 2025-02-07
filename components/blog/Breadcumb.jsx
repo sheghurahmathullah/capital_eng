@@ -4,7 +4,7 @@ export default function Breadcumb() {
   return (
     <div
       className="breadcumb-wrapper"
-      style={{ backgroundImage: "url(https://img.freepik.com/premium-photo/woman-reading-newspaper-cafe_53876-163531.jpg?w=1380)" }}
+      style={{ backgroundImage: "url(/assets/img/newsroom/press-release.jpg)" }}
     >
       <div className="container">
         <div className="breadcumb-content">
