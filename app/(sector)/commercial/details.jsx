@@ -45,8 +45,8 @@ export default function SectorDetails() {
 
         <div className="row justify-content-between flex-row-reverse">
           <div className="col-xl-3 col-lg-4">
-            <div className="project-details-info mb-lg-0 mb-40 hide">
-              <ul className="list-wrap">
+            <div className="project-details-info mb-lg-0 mb-40 hide d-none d-md-block">
+              <ul className="list-wrap" >
                 <li>
                   <span>Navigate to:</span>
                   <div
