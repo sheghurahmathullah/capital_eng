@@ -39,10 +39,18 @@ export default function RootLayout({ children }) {
   const pathname = usePathname();
 
   useEffect(() => {
-      clarity.start({ projectId: CLARITY_PROJECT_ID });
+      // Dynamically add Clarity script to the page
+      const script = document.createElement("script");
+      script.src = `https://www.clarity.ms/tag/${CLARITY_PROJECT_ID}`;
+      script.async = true;
+      script.onload = () => {
+          window.clarity("trackPageview");  // Track page view after script load
+      };
+      document.head.appendChild(script);
 
-      // Track page views when navigating
-      clarity.trackPageview();
+      return () => {
+          document.head.removeChild(script); // Clean up the script on component unmount
+      };
   }, [pathname]);
 
   let wow = null;
