@@ -66,7 +66,7 @@
     position: relative;
     .footer-top {
         .footer-top-title {
-            font-size: 80px;
+            font-size: 65px;
             font-weight: 600;
             margin: -0.21em 0 -0.22em;
         }
@@ -79,7 +79,7 @@
     
     @include xl {
         .footer-top .footer-top-title {
-            font-size: 70px;
+            font-size: 60px;
         }
     }
     @include lg {

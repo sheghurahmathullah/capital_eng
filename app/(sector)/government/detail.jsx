@@ -161,7 +161,7 @@ export default function SectorDetails() {
           </div>
           <div className="col-lg-8">
             <div className="title-area mb-35">
-              <h2 className="sec-title">Government Projects</h2>
+              <h2 className="sec-title"style={{color:"#071E53"}}>Government Projects</h2>
               <p className="sec-text mt-30">
               At Capital Engineering Consultancy, we recognize that government projects are the backbone of national progress. These initiatives serve as catalysts for community well-being, economic growth, and global leadership. We work in close partnership with public entities, working on infrastructure solutions that align with national priorities and community aspirations. Whether it’s municipal facilities, industrial complexes, or iconic headquarters, we are committed to delivering results that reflect innovation, functionality, and sustainability.
               </p>

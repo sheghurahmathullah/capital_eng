@@ -161,7 +161,7 @@ export default function SectorDetails() {
           </div>
           <div className="col-lg-8">
             <div className="title-area mb-35">
-              <h2 className="sec-title">Industrial Sector </h2>
+              <h2 className="sec-title"style={{color:"#071E53"}}>Industrial Sector </h2>
               <p className="sec-text mt-30">
               At Capital Engineering Consultancy, we design industrial spaces that are robust, efficient, and future-ready. By collaborating closely with businesses across the UAE, we deliver facilities that streamline production, enhance logistics, and meet stringent safety and environmental standards. Whether you are planning a high-capacity warehouse or a specialized manufacturing unit, we help turn your operational goals into reality.
               </p>

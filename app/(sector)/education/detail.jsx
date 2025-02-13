@@ -161,7 +161,7 @@ export default function SectorDetails() {
           </div>
           <div className="col-lg-8">
             <div className="title-area mb-35">
-              <h2 className="sec-title">Education</h2>
+              <h2 className="sec-title"style={{color:"#071E53"}}>Education</h2>
               <p className="sec-text mt-30">
               At Capital Engineering Consultancy, we specialize in transforming educational visions into reality. From concept to completion, we craft functional, safe, and future-ready spaces that empower learning and foster academic excellence. With projects like Pace Groups and VISS, we deliver customized solutions that meet the evolving needs of the education sector.
               </p>

@@ -22,7 +22,7 @@ export default function ServiceDetails({ serviceId }) {
           </div> */}
           <div className="col-xl-8">
             <div className="title-area mb-35">
-              <h2 className="sec-title">Architecture & Design</h2>
+              <h2 className="sec-title"style={{color:"#071E53"}}>Architecture & Design</h2>
               <p className="sec-text mt-30">
                 Welcome to Capital Engineering Consultancy, your trusted partner in the UAE for innovative, 
                 sustainable, and enduring architectural solutions. With a legacy built over years of 

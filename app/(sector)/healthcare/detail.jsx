@@ -162,7 +162,7 @@ export default function SectorDetails() {
           </div>
           <div className="col-lg-8">
             <div className="title-area mb-35">
-              <h2 className="sec-title">Healthcare</h2>
+              <h2 className="sec-title"style={{color:"#071E53"}}>Healthcare</h2>
               <p className="sec-text mt-30">
               At Capital Engineering Consultancy, we understand that healthcare facilities are the foundation of exceptional care.  By working on projects like MNR Hospital, Meydan Wellness, Amana Healthcare and Mediclinic, we focus on patient well-being and operational excellence, we design spaces that meet the unique demands of the healthcare sector.
               </p>

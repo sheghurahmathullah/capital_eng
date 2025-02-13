@@ -161,7 +161,7 @@ export default function SectorDetails() {
           </div>
           <div className="col-lg-8">
             <div className="title-area mb-35">
-              <h2 className="sec-title">Railways</h2>
+              <h2 className="sec-title"style={{color:"#071E53"}}>Railways</h2>
               <p className="sec-text mt-30">
               The railway sector is experiencing a period of immense transformation. From high-speed rail to innovative signalling systems, the need for expertise in complex engineering solutions is paramount. At Capital Engineering Consultancy, we understand the unique challenges faced by railway projects. 
               </p>

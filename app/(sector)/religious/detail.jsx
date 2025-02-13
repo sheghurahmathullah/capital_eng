@@ -161,7 +161,7 @@ export default function SectorDetails() {
           </div>
           <div className="col-lg-8">
             <div className="title-area mb-35">
-              <h2 className="sec-title">Religious Projects</h2>
+              <h2 className="sec-title"style={{color:"#071E53"}}>Religious Projects</h2>
               <p className="sec-text mt-30">
               At Capital Engineering Consultancy, we know that religious spaces transcend architecture. They are sacred places of worship, community gathering, and spiritual connection. Our commitment lies in creating environments that reflect spiritual values while meeting modern engineering standards.
 

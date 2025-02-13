@@ -161,7 +161,7 @@ export default function SectorDetails() {
           </div>
           <div className="col-lg-8">
             <div className="title-area mb-35">
-              <h2 className="sec-title">Roads and Infrastructure</h2>
+              <h2 className="sec-title"style={{color:"#071E53"}}>Roads and Infrastructure</h2>
               <p className="sec-text mt-30">
               At Capital Engineering Consultancy, we help you shape thriving communities with innovative and resilient road and infrastructure solutions. Whether it’s designing efficient roadways or optimizing utility networks, we focus on systems that meet modern demands while anticipating future needs.
               </p>

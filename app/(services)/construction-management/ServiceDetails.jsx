@@ -24,7 +24,7 @@ export default function ServiceDetails({ serviceId }) {
           </div> */}
           <div className="col-xl-8">
             <div className="title-area mb-35">
-              <h2 className="sec-title">Construction Management</h2>
+              <h2 className="sec-title"style={{color:"#071E53"}}>Construction Management</h2>
               <p className="sec-text mt-30">
                 At Capital Engineering Consultancy, our Construction Management services ensure projects are completed on time, within budget, and with the highest level of quality. Our technical expertise, meticulous planning, and efficient execution guarantee a smooth construction journey from inception to completion.
               </p>

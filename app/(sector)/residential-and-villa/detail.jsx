@@ -161,7 +161,7 @@ export default function SectorDetails() {
           </div>
           <div className="col-lg-8">
             <div className="title-area mb-35">
-              <h2 className="sec-title">Residential and Villa</h2>
+              <h2 className="sec-title"style={{color:"#071E53"}}>Residential and Villa</h2>
               <p className="sec-text mt-30">
               At Capital Engineering Consultancy, we understand that your residence is more than a building, it is a reflection of your vision and proof of your commitment. Our expertise in residential and villa design ensures personalized spaces that combine elegance, functionality, and sustainability, tailored to your unique lifestyle.
               </p>

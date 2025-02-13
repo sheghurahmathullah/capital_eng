@@ -24,7 +24,7 @@ export default function ServiceDetails({ serviceId }) {
           </div> */}
           <div className="col-xl-8">
             <div className="title-area mb-35">
-              <h2 className="sec-title">Landscaping</h2>
+              <h2 className="sec-title"style={{color:"#071E53"}}>Landscaping</h2>
               <p className="sec-text mt-30">
                 At Capital Engineering Consultancy LLC in the UAE, we understand the profound impact that a well-executed landscape design can have on the environment and the built world. Our team of skilled landscape architects combine technical proficiency with creative vision to design outdoor spaces that are both sustainable and aesthetically pleasing.
               </p>

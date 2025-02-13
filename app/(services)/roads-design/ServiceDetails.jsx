@@ -24,7 +24,7 @@ export default function ServiceDetails({ serviceId }) {
           </div> */}
           <div className="col-xl-8">
             <div className="title-area mb-35">
-              <h2 className="sec-title">Road & Infrastructure</h2>
+              <h2 className="sec-title"style={{color:"#071E53"}}>Road & Infrastructure</h2>
               <p className="sec-text mt-30">
                 Capital Engineering Consultancy has established a remarkable reputation for delivering top-notch road and infrastructure projects in the UAE and uae. As a leading consultancy, we recognize the crucial role that roads and bridges play in a city's infrastructure, which is why we prioritize quality and excellence in every design we produce. 
               </p>

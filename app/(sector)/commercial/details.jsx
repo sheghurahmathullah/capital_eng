@@ -163,7 +163,7 @@ export default function SectorDetails() {
 
           <div className="col-lg-8">
             <div className="title-area mb-35">
-              <h2 className="sec-title">Commercial Projects</h2>
+              <h2 className="sec-title" style={{color:"#071E53"}}>Commercial Projects</h2>
               <p className="sec-text mt-30">
                 At Capital Engineering Consultancy, we know that commercial
                 spaces must seamlessly blend functionality, efficiency, and

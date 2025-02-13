@@ -162,7 +162,7 @@ export default function SectorDetails() {
           </div>
           <div className="col-lg-8">
             <div className="title-area mb-35">
-              <h2 className="sec-title">Oil and Gas</h2>
+              <h2 className="sec-title"style={{color:"#071E53"}}>Oil and Gas</h2>
               <p className="sec-text mt-30">
               At Capital Engineering Consultancy, we partner with you to tackle the challenges of oil and gas operations, offering practical solutions that improve efficiency, support sustainability, and deliver real results.
               </p>

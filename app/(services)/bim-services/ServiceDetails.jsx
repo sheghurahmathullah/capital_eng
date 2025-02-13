@@ -25,7 +25,7 @@ export default function ServiceDetails({ serviceId }) {
           </div> */}
           <div className="col-xl-8">
             <div className="title-area mb-35">
-              <h2 className="sec-title">BIM Services</h2>
+              <h2 className="sec-title"style={{color:"#071E53"}}>BIM Services</h2>
               <p className="sec-text mt-30">
                 Capital Engineering Consultancy LLC, UAE, is at the forefront of modern construction technology, offering advanced Building Information Modelling (BIM) services. Our BIM solutions enhance project efficiency, reduce risks, and ensure better collaboration throughout the design and construction process.
               </p>

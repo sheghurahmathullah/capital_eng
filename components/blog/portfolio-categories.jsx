@@ -9,7 +9,6 @@ export default function Categories() {
 
   const categories = [
     { id: 1, text: "All" },
-    { id: 2, text: "Shelter" },
     { id: 3, text: "Railway" },
     { id: 4, text: "Oil & Gas" },
     { id: 5, text: "Religious" },

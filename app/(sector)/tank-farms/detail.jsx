@@ -161,7 +161,7 @@ export default function SectorDetails() {
           </div>
           <div className="col-lg-8">
             <div className="title-area mb-35">
-              <h2 className="sec-title">Tank Farms</h2>
+              <h2 className="sec-title"style={{color:"#071E53"}}>Tank Farms</h2>
               <p className="sec-text mt-30">
               At Capital Engineering Consultancy, we understand the vital role tank farms play in your operations. More than just storage facilities, tank farms are hubs of safety, efficiency, and sustainability. With projects like Sharjah National Oil Lubricant, Alaska Petroleum, NT Petroleum and Texol Lubricants we specialize in designing infrastructure that ensures seamless storage, transfer, and handling processes.
               </p>

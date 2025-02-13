@@ -24,7 +24,7 @@ export default function ServiceDetails({ serviceId }) {
           </div> */}
           <div className="col-xl-8">
             <div className="title-area mb-35">
-              <h2 className="sec-title">Environmental Solutions</h2>
+              <h2 className="sec-title"style={{color:"#071E53"}}>Environmental Solutions</h2>
               <p className="sec-text mt-30">
                 Capital Engineering Consultancy is a leading environmental consulting firm in the UAE,
                 specializing in comprehensive environmental solutions. With a strong presence in the Middle East,

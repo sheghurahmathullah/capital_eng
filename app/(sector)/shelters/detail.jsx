@@ -161,7 +161,7 @@ export default function SectorDetails() {
           </div>
           <div className="col-lg-8">
             <div className="title-area mb-35">
-              <h2 className="sec-title">Shelters</h2>
+              <h2 className="sec-title"style={{color:"#071E53"}}>Shelters</h2>
               <p className="sec-text mt-30">
               At Capital Engineering Consultancy, we specialize in designing, constructing, and modernizing shelters and protective spaces. Our solutions include civil defense shelters, bomb shelters, government and industrial bunkers, safe rooms, prefabricated shelters, and other structures tailored to safeguard lives and assets during emergencies.
 

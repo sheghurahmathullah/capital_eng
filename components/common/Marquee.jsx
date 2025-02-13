@@ -29,13 +29,13 @@ export default function MarqueeComponent() {
     },
   ];
   return (
-    <div className="container-fluid p-0 overflow-hidden pt-5">
+    <div className="container-fluid p-0 overflow-hidden pt-5"  >
       <div className="slider__marquee clearfix marquee-wrap">
         <div className="marquee_mode marquee__group">
           <Marquee pauseOnHover={true}>
             {marQueeItems.map((elm, i) => (
-              <h6 key={i} className="item m-item">
-                <a href={elm.href}>
+              <h6 key={i} className="item m-item" >
+                <a href={elm.href} style={{fontSize:"30px"}}>
                   <i className={elm.icon}></i> {elm.text}
                 </a>
               </h6>

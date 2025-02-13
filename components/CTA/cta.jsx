@@ -17,8 +17,8 @@ export default function CtaForm() {
                 </p>
                 <Link scroll={false} href="/contact" className="btn">
                   <span className="link-effect">
-                    <span className="effect-1">LET'S TALK</span>
-                    <span className="effect-1">LET'S TALK</span>
+                    <span className="effect-1">WORK WITH US</span>
+                    <span className="effect-1">WORK WITH US</span>
                   </span>
                 </Link>
               </div>

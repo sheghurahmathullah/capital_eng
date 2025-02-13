@@ -161,7 +161,7 @@ export default function SectorDetails() {
           </div>
           <div className="col-lg-8">
             <div className="title-area mb-35">
-              <h2 className="sec-title">Hospitality</h2>
+              <h2 className="sec-title"style={{color:"#071E53"}}>Hospitality</h2>
               <p className="sec-text mt-30">
               At Capital Engineering Consultancy, we believe hospitality spaces should be as unique as the experiences they offer. By collaborating closely with you, we design environments that attract guests, optimize operations, and reflect your unique brand identity. From Radisson Blu Apartment to Ritz Carlton Villas, our portfolio speaks of spaces that inspire.
               </p>

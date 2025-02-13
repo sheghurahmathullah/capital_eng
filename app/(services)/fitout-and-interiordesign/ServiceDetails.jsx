@@ -24,7 +24,7 @@ export default function ServiceDetails({ serviceId }) {
           </div> */}
           <div className="col-xl-8">
             <div className="title-area mb-35">
-              <h2 className="sec-title">Fit Out & Interior Design</h2>
+              <h2 className="sec-title"style={{color:"#071E53"}}>Fit Out & Interior Design</h2>
               <p className="sec-text mt-30">
                 At Capital Engineering Consultancy LLC, UAE, we specialize in transforming spaces into functional, elegant, and sustainable environments. Our Interior Design Team is renowned for delivering top-tier design solutions for commercial, residential, and hospitality projects. With over a decade of experience, we have successfully completed projects that meet both client expectations and regulatory approvals, reflecting the high standards of the UAE.
               </p>

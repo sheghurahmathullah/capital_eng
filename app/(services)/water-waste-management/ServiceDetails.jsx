@@ -53,7 +53,7 @@ export default function ServiceDetails({ serviceId }) {
           <div className="col-xl-8">
             <div className="title-area mb-35">
               <h2 className="sec-title">Water & Waste Management</h2>
-              <p className="sec-text mt-30">
+              <p className="sec-text mt-30"style={{color:"#071E53"}}>
                 At Capital Engineering Consultancy, we offer sustainable and
                 innovative Water & Waste Management solutions tailored to meet
                 the growing demands of urbanization and industrial development.

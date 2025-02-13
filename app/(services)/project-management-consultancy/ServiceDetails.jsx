@@ -24,7 +24,7 @@ export default function ServiceDetails({ serviceId }) {
           </div> */}
           <div className="col-xl-8">
             <div className="title-area mb-35">
-              <h2 className="sec-title">Project Management Consultancy</h2>
+              <h2 className="sec-title"style={{color:"#071E53"}}>Project Management Consultancy</h2>
               <p className="sec-text mt-30">
               At Capital Engineering Consultancy, we are more than just project managers; 
               we are your partners in success, committed to delivering integrated and multidisciplinary 

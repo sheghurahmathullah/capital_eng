@@ -24,7 +24,7 @@ export default function ServiceDetails({ serviceId }) {
           </div> */}
           <div className="col-xl-8">
             <div className="title-area mb-35">
-              <h2 className="sec-title">MEP Design and Services </h2>
+              <h2 className="sec-title"style={{color:"#071E53"}}>MEP Design and Services </h2>
               <p className="sec-text mt-30">
                 Capital Engineering Consultancy LLC is a distinguished leader in the UAE’s multi-disciplinary engineering sector, offering a comprehensive suite of MEP Design and Services . Our expertise includes HVAC, electrical, plumbing, fire protection, and security and information technology systems. With an illustrious history of delivering exceptional outcomes, we are dedicated to providing unparalleled service excellence to our esteemed clients.
               </p>

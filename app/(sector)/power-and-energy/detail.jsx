@@ -161,7 +161,7 @@ export default function SectorDetails() {
           </div>
           <div className="col-lg-8">
             <div className="title-area mb-35">
-              <h2 className="sec-title">Power and Energy</h2>
+              <h2 className="sec-title"style={{color:"#071E53"}}>Power and Energy</h2>
               <p className="sec-text mt-30">
               At Capital Engineering Consultancy, we understand that energy infrastructure is not just about delivering power, it is about driving progress, minimizing environmental impact, and creating a resilient foundation for the future. Whether you are advancing waste-to-energy solutions or modernizing grid systems, we collaborate with you to turn vision into reality.
               </p>

@@ -35,7 +35,7 @@ export default function MarqueeComponent() {
           <Marquee pauseOnHover={true}>
             {marQueeItems.map((elm, i) => (
               <h6 key={i} className="item m-item">
-                <a href={elm.href}>
+                <a href={elm.href}style={{fontSize:"30px"}}>
                   <i className={elm.icon}></i> {elm.text}
                 </a>
               </h6>
