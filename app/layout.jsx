@@ -2,6 +2,7 @@
 
 import { usePathname } from "next/navigation";
 import { useEffect } from "react";
+import Script from "next/script";
 import "../public/assets/css/vendor.css";
 import "../public/assets/sass/style.scss";
 import { ParallaxProvider } from "react-scroll-parallax";
@@ -46,6 +47,19 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`body  ${poppins.variable} ${unbounded.variable}`}>
+        <head>
+    
+<Script async src={`https://www.googletagmanager.com/gtag/js?id=G-TM7KY7962Z`}></Script>
+<Script>
+  {
+    `window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-TM7KY7962Z');`
+  }
+</Script>
+        </head>
         <ParallaxProvider>{children}</ParallaxProvider>
         <ScrollTop />
         <ScrollTopBehaviour />
