@@ -8,6 +8,7 @@ import "../public/assets/sass/style.scss";
 import { ParallaxProvider } from "react-scroll-parallax";
 import ScrollTop from "@/components/common/ScrollTop";
 import { Unbounded, Poppins } from "next/font/google";
+import clarity from "@microsoft/clarity";
 import ScrollTopBehaviour from "@/components/common/ScrollTopBehavier";
 if (typeof window !== "undefined") {
   import("bootstrap/dist/js/bootstrap.esm").then((module) => {
@@ -15,6 +16,10 @@ if (typeof window !== "undefined") {
   });
 }
 // wow js
+
+
+
+const CLARITY_PROJECT_ID = "q93kym975x"; 
 
 const unbounded = Unbounded({
   subsets: ["latin"],
@@ -31,6 +36,15 @@ const poppins = Poppins({
 
 export default function RootLayout({ children }) {
   const path = usePathname();
+  const pathname = usePathname();
+
+  useEffect(() => {
+      clarity.start({ projectId: CLARITY_PROJECT_ID });
+
+      // Track page views when navigating
+      clarity.trackPageview();
+  }, [pathname]);
+
   let wow = null;
   useEffect(() => {
     const { WOW } = require("wowjs");
