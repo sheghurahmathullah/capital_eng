@@ -77,7 +77,7 @@ const ProjectDetails = ({slug }) => {
           <div className="col-lg-8">
             <div className="title-area mb-35">
             <div>
-            <h4 className="sec-title" style={{ display: "inline-block", marginRight: "10px" }}>
+            <h4 className="sec-title" style={{ display: "inline-block", marginRight: "10px", letterSpacing:"0px" }}>
   Category :
 </h4>
 <p style={{ display: "inline-block", fontSize:"20px" }}>
@@ -85,7 +85,7 @@ const ProjectDetails = ({slug }) => {
 </p>
             </div>
 
-              <h4 className="sec-title" style={{ display: "inline-block", marginRight: "10px" }}>Location : </h4> 
+              <h4 className="sec-title" style={{ display: "inline-block", marginRight: "10px", letterSpacing:"0px" }}>Location : </h4> 
               <p style={{ display: "inline-block", fontSize:"20px" }}>
   {project.location}
 </p>
@@ -94,7 +94,7 @@ const ProjectDetails = ({slug }) => {
  
   style={{ display: 'inline-block', cursor: 'pointer' }}
 >
-  <h4 className="sec-title">Description :</h4>
+  <h4 className="sec-title" style={{letterSpacing:"0px"}}>Description :</h4>
   <p><PortableText value={project.body} /></p>
 </span>
               <div className="sec-text mt-30">

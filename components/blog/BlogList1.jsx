@@ -117,7 +117,7 @@ export default async function BlogList1() {
                             <h3 className="title" style={{fontSize:"20px"}}>
                               <Link
                                 scroll={false}
-                                href={`/blog1-details/${post.slug.current}`}
+                                href={`/blog1-details/${post.slug}`}
                               >
                                 {post.title}
                               </Link>
@@ -125,7 +125,7 @@ export default async function BlogList1() {
                             
                             <Link
                               scroll={false}
-                              href={`/blog1-details/${post.slug.current}`}
+                              href={`/blog1-details/${post.slug}`}
                               className="link-btn"
                             >
                               <span className="link-effect">
@@ -144,7 +144,7 @@ export default async function BlogList1() {
                       </div>
                     ))}
                   </div>
-                  <Pagination />
+                  {/* <Pagination /> */}
                 </div>
               </div>
               <div className="col-30">

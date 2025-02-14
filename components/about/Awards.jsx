@@ -8,7 +8,7 @@ export default function Awards() {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-10">
-            <h2 className="text-center mb-4">Our Philosophy</h2>
+            <h2 className="text-center mb-4 pb-5">Our Philosophy</h2>
             <div className="mb-5">
               <h3>Collaboration as the Cornerstone</h3>
               <p>

@@ -22,7 +22,7 @@ export default function Projects3() {
                   </Link>
                 </div>
                 <div className="portfolio-details">
-                  <h3 className="portfolio-title mb-3">
+                  <h3 className="portfolio-title mb-3" style={{fontSize:"30px"}}>
                     <Link scroll={false} href={elm.link}>
                       {elm.title}
                     </Link>

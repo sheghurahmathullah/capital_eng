@@ -116,7 +116,7 @@ const ProjectDetails = ({ slug }) => {
 
           <div className="col-lg-8">
             <div className="title-area mb-35">
-              <h4 className="sec-title">About Rook</h4>
+              <h4 className="sec-title" style={{letterSpacing:"0px"}}>About Rook</h4>
 
               <div className="sec-text mt-30">
                 <p>
@@ -131,7 +131,7 @@ const ProjectDetails = ({ slug }) => {
 
           <div className="col-lg-8">
             <div className="title-area mb-35">
-              <h4 className="sec-title">
+              <h4 className="sec-title" style={{letterSpacing:"0px"}}>
                 About Capital Engineering Consultancy
               </h4>
 

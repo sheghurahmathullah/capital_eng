@@ -135,7 +135,7 @@ export default async function BlogList2() {
               target="_blank"
               rel="noopener noreferrer"
               style={{
-                color: '#0070f3',
+                color: '#071E53',
                 textDecoration: 'none',
                 fontWeight: 'bold',
               }}
@@ -149,23 +149,23 @@ export default async function BlogList2() {
                 href={`/blog1-details/${post.slug.current}`}
                 className="link-btn"
               >
-                <span className="link-effect">
+                {/* <span className="link-effect">
                   <span className="effect-1">READ MORE</span>
                   <span className="effect-1">READ MORE</span>
-                </span>
-                <Image
+                </span> */}
+                {/* <Image
                   width={13}
                   height={13}
                   src="/assets/img/icon/arrow-left-top.svg"
                   alt="icon"
-                />
+                /> */}
               </Link>
             </div>
           </div>
         </div>
       ))}
     </div>
-    <Pagination />
+    {/* <Pagination /> */}
   </div>
 </div>
 

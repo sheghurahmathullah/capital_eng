@@ -11,7 +11,7 @@ export default function Contact() {
     const form = e.target;
 
     const scriptURL =
-      "https://script.google.com/macros/s/AKfycbyx0JP-wtfmGDCMcfM3AD2nv3C6mbgTw2JCGai2wwVuM_qjA1qPxAVwy1AnFUFjja8T/exec";
+      "https://script.google.com/macros/s/AKfycbxaLkroIWphbuY7aL5Z8GBp80Ze5Q4RHJBC-aIciEnyYcd23G-C8hZnD3X6H8Lth20NYA/exec";
     const formData = new FormData(form);
 
     setIsSubmitting(true);
@@ -20,6 +20,7 @@ export default function Contact() {
       const response = await fetch(scriptURL, {
         method: "POST",
         body: formData,
+   
       });
 
       if (response.ok) {

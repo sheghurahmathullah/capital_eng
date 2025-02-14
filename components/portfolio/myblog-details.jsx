@@ -90,7 +90,7 @@ const ProjectDetails = ({ slug }) => {
           </div>
           <div className="col-lg-8">
             <div className="title-area mb-35">
-              <h4 className="sec-title">Description</h4>
+              <h4 className="sec-title" style={{letterSpacing:"0px"}}>Description</h4>
 
               <div className="sec-text mt-30">
                 {post.projectDescription}
@@ -100,7 +100,7 @@ const ProjectDetails = ({ slug }) => {
 
           <div className="col-lg-8">
             <div className="title-area mb-35">
-              <h4 className="sec-title">Project Overview</h4>
+              <h4 className="sec-title"style={{letterSpacing:"0px"}}>Project Overview</h4>
 
               <div className="sec-text mt-30">
                 <PortableText value={post.projectOverview} />
@@ -110,7 +110,7 @@ const ProjectDetails = ({ slug }) => {
 
           <div className="col-lg-8">
             <div className="title-area mb-35">
-              <h4 className="sec-title">Key Features</h4>
+              <h4 className="sec-title"style={{letterSpacing:"0px"}}>Key Features</h4>
 
               <div className="sec-text mt-30">
                 {post.points && post.points.length > 0 ? (
@@ -128,7 +128,7 @@ const ProjectDetails = ({ slug }) => {
 
           <div className="col-lg-8">
             <div className="title-area mb-35">
-              <h4 className="sec-title">Collaborative Effort</h4>
+              <h4 className="sec-title"style={{letterSpacing:"0px"}}>Collaborative Effort</h4>
 
               <div className="sec-text mt-30">
                 <PortableText value={post.collaborativeEffort} />
@@ -138,7 +138,7 @@ const ProjectDetails = ({ slug }) => {
 
           <div className="col-lg-8">
             <div className="title-area mb-35">
-            <h4 className="sec-title">{post.endingSlogan}</h4>
+            <h4 className="sec-title"style={{letterSpacing:"0px"}}>{post.endingSlogan}</h4>
 
               <div className="sec-text mt-30">
               <PortableText value={post.endingPara} />
