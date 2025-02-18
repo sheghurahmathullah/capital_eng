@@ -14,8 +14,7 @@ export default function Features() {
               <h2 className="sec-title">Our Vision</h2>
             </div>
             <p>
-              To be the leading multidisciplinary consultancy, recognized globally as a trusted partner in shaping the construction landscape through innovative, reliable, and
-              sustainable solutions that drive progress and excellence.
+            To be a globally recognized multidisciplinary consultancy, shaping the construction landscape with innovative, reliable, and sustainable solutions. Through excellence and progress, we strive to be a trusted partner in engineering.
             </p>
           </div>
           <div className="col-lg-6">
@@ -51,10 +50,7 @@ export default function Features() {
               <h2 className="sec-title">Our Mission</h2>
             </div>
             <p>
-              To deliver unparalleled value and excellence through tailored, innovative engineering solutions.
-              By leveraging advanced technologies, a skilled team, and a commitment to sustainability, we address
-              complex challenges with precision and efficiency. Our mission is to enhance the built environment,
-              foster sustainable development, and create lasting value for our clients, stakeholders, and communities worldwide.
+            We deliver unparalleled value through tailored engineering solutions, leveraging advanced technologies and a skilled team. Committed to sustainability, we enhance the built environment, foster development, and create lasting value worldwide.
             </p>
           </div>
         </div>

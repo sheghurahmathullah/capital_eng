@@ -10,7 +10,7 @@ export default function Team() {
         <div className="row justify-content-center">
           <div className="col-lg-10">
             {/* CEO Message */}
-            <div className="title-area text-center">
+            {/* <div className="title-area text-center">
               <h2 className="sec-title">Message from our CEO and Managing Director</h2>
               <p className="mt-4">
                 Established in 2006 and headquartered in the UAE, Capital Engineering Consultancy has grown to become one of the leading multidisciplinary engineering consulting firms, expanding its presence to KSA, Oman, Egypt, India, Iraq, and the United Kingdom. 
@@ -24,10 +24,10 @@ export default function Team() {
                 <br />
                 Join us as we continue to shape the future of engineering through creativity, precision, and a steadfast dedication to excellence.
               </p>
-            </div>
+            </div> */}
 
             {/* Our Team Section */}
-            <div className="title-area text-center mt-5">
+            {/* <div className="title-area text-center mt-5">
               <h2 className="sec-title">Our Team Behind the Vision</h2>
               <p className="mt-4">
                 Behind the success of Capital Engineering Consultancy is a dedicated and talented team, committed to delivering innovative solutions and engineering excellence. Our team comprises highly skilled professionals with expertise spanning architecture, structural engineering, MEP services, BIM, roads, infrastructure, and more.
@@ -38,7 +38,7 @@ export default function Team() {
                 <br />
                 Together, we blend creativity and precision to provide exceptional engineering solutions that redefine possibilities and create lasting impact for our clients, stakeholders, and communities.
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

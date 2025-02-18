@@ -4,12 +4,12 @@ import React from "react";
 
 export default function Awards() {
   return (
-    <div className="award-area-1 space overflow-hidden">
+    <div className="award-area-1 space overflow-hidden" style={{marginTop:"-100px"}}>
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-10">
-            <h2 className="text-center mb-4 pb-5">Our Philosophy</h2>
-            <div className="mb-5">
+            {/* <h2 className="text-center mb-4 pb-5">Our Philosophy</h2> */}
+            {/* <div className="mb-5">
               <h3>Collaboration as the Cornerstone</h3>
               <p>
                 We firmly believe that collaboration is the key to unlocking groundbreaking solutions. Our team thrives on the exchange of ideas, knowledge sharing, and cross-functional collaboration. By fostering a supportive and inclusive work environment, we encourage open communication, enabling our team members to leverage each other's expertise to overcome challenges and deliver innovative results. We believe that the collective intelligence of our team is far greater than the sum of its parts.
@@ -44,7 +44,7 @@ export default function Awards() {
               <p>
                 Our team at Capital Engineering Consultancy is the driving force behind our success as an engineering consultancy. With a diverse range of expertise, a client-centric approach, and an unwavering commitment to excellence, we are well-positioned to take on any engineering challenge that comes our way. Together, we strive to exceed expectations, create lasting partnerships, and shape a better future through innovative engineering solutions.
               </p>
-            </div>
+            </div> */}
 
             {/* Adding space after philosophy */}
             <div className="mb-5" />  {/* Added gap after the last philosophy section */}

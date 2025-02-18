@@ -1,27 +1,41 @@
 export const featureData = [
   {
     id: 1,
-    iconSrc: "/assets/img/icon/feature-icon1-1.svg",
-    title: "Branding Design",
-    text: "We care success relationships fuel real success. We love building brands and helping",
+    iconSrc: "/assets/img/icon/1.svg",
+    title: "Collaboration as the Cornerstone",
+    text: "We foster teamwork and knowledge sharing to drive innovation. By leveraging collective expertise, we overcome challenges and deliver results.",
   },
   {
     id: 2,
     iconSrc: "/assets/img/icon/feature-icon1-2.svg",
-    title: "Website Development",
-    text: "We care success relationships fuel real success. We love building brands and helping",
+    title: "Client-Centric Approach",
+    text: "We build lasting relationships by understanding client needs. Our commitment to integrity ensures tailored, high-value solutions.",
+
   },
+ 
   {
     id: 3,
     iconSrc: "/assets/img/icon/feature-icon1-3.svg",
-    title: "Illustration Modelling",
-    text: "We care success relationships fuel real success. We love building brands and helping",
+    title: "Adaptability and Agility",
+    text: "Embracing change, we adopt new technologies and methods. Our agility ensures efficient project execution.",
   },
   {
     id: 4,
     iconSrc: "/assets/img/icon/feature-icon1-4.svg",
-    title: "Digital Marketing",
+    title: "Beyond Technical Excellence",
+    text: "We excel in communication, problem-solving, and project management. Seamless coordination ensures timely, budget-conscious delivery.",
+  },
+  {
+    id: 5,
+    iconSrc: "/assets/img/icon/feature-icon1-5.svg",
+    title: "A Culture of Excellence",
     text: "We care success relationships fuel real success. We love building brands and helping",
+  },
+  {
+    id: 6,
+    icon: "/assets/img/icon/feature-icon1-6.svg",
+    title: "Conclusion",
+    text: "Our expert team, client focus, and commitment to excellence shape a better future through innovation.",
   },
 ];
 export const featureData2 = [
