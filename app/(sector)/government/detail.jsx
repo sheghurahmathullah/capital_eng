@@ -184,7 +184,7 @@ export default function SectorDetails() {
 
             </p>
           </div>
-          <div className="col-lg-12">
+          {/* <div className="col-lg-12">
             <div className="inner__page-nav space-top mt-n1 mb-n1">
               <a href="#" className="nav-btn">
                 <i className="fa fa-arrow-left"></i>
@@ -205,7 +205,7 @@ export default function SectorDetails() {
                 <i className="fa fa-arrow-right"></i>
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
