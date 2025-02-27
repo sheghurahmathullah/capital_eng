@@ -7,31 +7,31 @@ export default function Team() {
     executiveProfiles: [
       {
         name: "Engr. Aman Alqaisy ",
-        role: "Head of Operations (Sharjah)",
+        role: "Head of Operations - Sharjah",
         image: "/assets/img/team/Engr. Aman Alqaisy - Head of Operations (Sharjah).webp",
         link: "/balaskandan-raghunathan",
       },
       {
         name: "Engr. Senthilram Palavesamuthu",
-        role: "Head of Operations (Abu Dhabi)",
+        role: "Head of Operations - Abu Dhabi ",
         image: "/assets/img/team/Engr. Senthilram Palavesamuthu - Head of Operations (Abu Dhabi).webp",
         link: "/mr-krishna-t",
       },
       {
         name: "Engr. Shobanbaabu Arumugam",
-        role: "Head of Operations (Saudi Arabia)",
+        role: "Head of Operations - Saudi Arabia",
         image: "/assets/img/team/Engr. Shobanbaabu Arumugam - Head of Operations (Saudi Arabia).webp",
         link: "/mohammed-ibrahim-jawad-al-ridha",
       },
       {
         name: "Mr. Subith Sreenivasan",
-        role: "Head of Operations (Umm Al Quwain)",
+        role: "Head of Operations - Umm Al Quwain",
         image: "/assets/img/team/Mr. Subith Sreenivasan - Head of Operations (Umm Al Quwain).webp",
         link: "/ali-khalid-al-hammadi",
       },
       {
         name: "Engr. Eslam Mohammed Ali",
-        role: "Head of Operations (Dubai & Egypt)",
+        role: "Head of Operations - Dubai & Egypt",
         image: "/assets/img/team/Engr. Eslam Mohammed Ali - Head of Operations (Dubai & Egypt).JPG",
         link: "/ali-khalid-al-hammadi",
       },
@@ -43,13 +43,13 @@ export default function Team() {
       },
       {
         name: "Engr. Navas Mohammed",
-        role: "Head of Operations (Oman)",
+        role: "Head of Operations - Oman",
         image: "/assets/img/team/Engr. Navas Mohammed - Head of Operations (Oman).JPG",
         link: "/ali-khalid-al-hammadi",
       },
       {
         name: "Engr. Ravikumar M",
-        role: "Head of Operations (Ras Al Khaimah)",
+        role: "Head of Operations - Ras Al Khaimah",
         image: "/assets/img/team/Engr. Ravikumar M. - Head of Operations (Ras Al Khaimah).JPG",
         link: "/ali-khalid-al-hammadi",
       },
@@ -61,7 +61,7 @@ export default function Team() {
       },
       {
         name: "Engr. Rolan Cabahug Carpi",
-        role: " Head of Operations (Ajman)",
+        role: " Head of Operationa - Ajman",
         image: "/assets/img/team/Engr. Rolan Cabahug Carpi - Head of Operations (Ajman).JPG",
         link: "/ali-khalid-al-hammadi",
       },
@@ -121,9 +121,10 @@ export default function Team() {
   return (
     <div className="team-area-1 space overflow-hidden">
       <div className="container">
-        {renderTeamSection("Executive Profiles", teamData.executiveProfiles)}
+        
+        {renderTeamSection("Board of Directors", teamData.boardOfDirectors)}
         <div className="pt-100">
-          {renderTeamSection("Board of Directors", teamData.boardOfDirectors)}
+        {renderTeamSection("Executive Profiles", teamData.executiveProfiles)}
         </div>
       </div>
     </div>
