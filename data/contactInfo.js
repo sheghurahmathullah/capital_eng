@@ -172,22 +172,22 @@ export const contactInfo2 = [
     ],
   },
   {
-    title: "Iraq",
-    locations: [
-      {
-        name: "Basrah",
-        address: "Al Maqel - Basrah Train Station, Basrah, Iraq",
-        phoneNumber: "+964 7711117857",
-        email: "info@capitalengg.com",
-      },
-    ],
-  },
-  {
     title: "Oman",
     locations: [
       {
         name: "Muscat",
         address: "Unit no. 11, Building no. 155, Azaiba, Muscat, Oman",
+        phoneNumber: "+968 94775486",
+        email: "info@capitalengg.com",
+      },
+    ],
+  },
+  {
+    title: "Egypt",
+    locations: [
+      {
+        name: "Cairo",
+        address: "Cairo Governorate 289, Dream House, 3233433 Egypt",
         phoneNumber: "+968 94775486",
         email: "info@capitalengg.com",
       },
@@ -205,29 +205,9 @@ export const contactInfo2 = [
       },
       {
         name: "Kerala",
-        address: "TENRA99, Elankom Nagar, Thycaud, Thiruvananthapuram, Kerala, India",
-        phoneNumber: "+91 49712319095, +91 9600001862",
-        mobileNumber: "+91 9600001862",
-        email: "info@capitalengg.com",
-      },
-    ],
-  },
-  {
-    title: "UK",
-    locations: [
-      {
-        name: "London",
-        address: "425a Ewell Road, Tolworth, Surbiton, KT6 7ES, London, United Kingdom",
-        email: "info@capitalengg.com",
-      },
-    ],
-  },
-  {
-    title: "Egypt",
-    locations: [
-      {
-        name: "Cairo",
-        address: "Cairo Governorate 289, Dream House, 3233433 Egypt",
+        address: "Capital Engineering Consultancy, Room No. 5A, Municipal Townhall Building, Kurishupally Junction, Pala - 686575",
+        phoneNumber: "+ 91 9048820002",
+        mobileNumber: "+ 91 9048820002",
         email: "info@capitalengg.com",
       },
     ],

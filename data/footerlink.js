@@ -12,7 +12,8 @@ export const links3 = [
   { id: 7, href: "/about", text: "About Us" },
   { id: 8, href: "/contact", text: "Contact" },
   { id: 9, href: "/portfolio", text: "Portfolio" },
-  { id: 10, href: "/Termsofuse", text: "Terms of Use" },
+  { id: 10, href: "/team", text: "Our Team" },
+  { id: 11, href: "/Termsofuse", text: "Terms of Use" },
   { id: 11, href: "/privacy-policy", text: "Privacy Policy" },
 ];
 export const links4 = [

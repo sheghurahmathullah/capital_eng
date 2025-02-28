@@ -37,9 +37,9 @@
         position: relative;
         font-weight: 600;
         font-family: $title-font;
-        font-size: 14px;
+        font-size: 13px;
         color: $title-color;
-        letter-spacing: -0.14px;
+        // letter-spacing: -0.14px;
         &:hover {
             color: $title-color;
             &:before {
@@ -51,11 +51,12 @@
     > ul {
         display: flex;
         align-items: center;
-        margin: 0 -20px !important;
+        margin: 0 -50px !important;
+        gap: 20px;
         > li {
             margin: 0;
             > a {
-                padding: 46.5px 20px;
+                padding: 44px 20px;
                 &:hover {
                     color: $title-color;
                     .effect-1 {
@@ -117,8 +118,8 @@
             font-weight: 400;
             font-family: $body-font;
             letter-spacing: normal;
-            line-height: 41px;
-            font-size: 16px;
+            line-height: 30px;
+            font-size: 13px;
             color: $black-color;
             span {
                 font-size: 12px;
@@ -251,7 +252,7 @@
     li {
         display: inline-block;
         position: relative;
-        font-size: 14px;
+        font-size: 13px;
         font-weight: 400;
         &:not(:last-child) {
             margin: 0 40px 0 0;

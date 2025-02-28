@@ -7,9 +7,9 @@ export const counterData = [
   },
   {
     id: 2,
-    number: 300,
+    number: 7200,
     title: "Projects",
-    text: "Successfully completing 6852 projects, our consultancy excels in tackling complex engineering challenges with precision.",
+    text: "Successfully completing over 7000 projects, our consultancy excels in tackling complex engineering challenges with precision.",
   },
   {
     id: 3,

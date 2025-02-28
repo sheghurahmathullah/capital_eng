@@ -8,6 +8,7 @@ import "../public/assets/sass/style.scss";
 import { ParallaxProvider } from "react-scroll-parallax";
 import ScrollTop from "@/components/common/ScrollTop";
 import { Unbounded, Poppins } from "next/font/google";
+import {localfont} from "next/font/local";
 import clarity from "@microsoft/clarity";
 import ScrollTopBehaviour from "@/components/common/ScrollTopBehavier";
 if (typeof window !== "undefined") {
@@ -21,11 +22,12 @@ if (typeof window !== "undefined") {
 
 const CLARITY_PROJECT_ID = "q93kym975x"; 
 
-const unbounded = Unbounded({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  variable: "--title-font",
-});
+// const unbounded = Unbounded({
+//   subsets: ["latin"],
+//   weight: ["400", "500", "600", "700"],
+//   variable: "--title-font",
+// });
+
 
 // Poppins font
 const poppins = Poppins({
@@ -33,6 +35,13 @@ const poppins = Poppins({
   weight: ["300", "400", "500", "600", "700", "800"],
   variable: "--body-font",
 });
+
+// const delight = localfont({
+//   src: "/public/assets/fonts/delight-regular.otf",
+//   subsets: ["latin"],
+//   weight: ["300", "400", "500", "600", "700", "800"],
+//   variable: "--delight-font",
+// });
 
 export default function RootLayout({ children }) {
   const path = usePathname();
@@ -68,7 +77,7 @@ export default function RootLayout({ children }) {
   //}, [path]);
   return (
     <html lang="en">
-      <body className={`body  ${poppins.variable} ${unbounded.variable}`}>
+      <body className={`body  ${poppins.variable}`}>
         <head>
     
 <Script async src={`https://www.googletagmanager.com/gtag/js?id=G-TM7KY7962Z`}></Script>

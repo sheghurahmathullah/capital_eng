@@ -182,9 +182,36 @@ export default function SectorDetails() {
             <p className="sec-text mb-n1">
             At Capital Engineering Consultancy, we don’t just build infrastructure; we create the foundation for societal advancement. Together, let’s turn your vision into reality, empowering communities and shaping the UAE’s global leadership.
 
+<<<<<<< HEAD
             </p> */}
           </div>
 
+=======
+            </p>
+          </div>
+          {/* <div className="col-lg-12">
+            <div className="inner__page-nav space-top mt-n1 mb-n1">
+              <a href="#" className="nav-btn">
+                <i className="fa fa-arrow-left"></i>
+                <span>
+                  <span className="link-effect">
+                    <span className="effect-1">Previous Post</span>
+                    <span className="effect-1">Previous Post</span>
+                  </span>
+                </span>
+              </a>
+              <a href="#" className="nav-btn">
+                <span>
+                  <span className="link-effect">
+                    <span className="effect-1">Next Post</span>
+                    <span className="effect-1">Next Post</span>
+                  </span>
+                </span>
+                <i className="fa fa-arrow-right"></i>
+              </a>
+            </div>
+          </div> */}
+>>>>>>> b0f4bc4c5785f0382ccda02e3a7b7f300215731b
         </div>
       </div>
     </div>

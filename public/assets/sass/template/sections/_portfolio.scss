@@ -22,7 +22,7 @@
       margin: 0 0 14px;
       li {
         display: inline-block;
-        font-size: 18px;
+        font-size: 14px;
         font-weight: 400;
         position: relative;
         &:after {
@@ -396,7 +396,7 @@
     font-size: 22px;
   }
   .portfolio-wrap .portfolio-details .portfolio-meta li {
-    font-size: 16px;
+    font-size: 12px;
   }
 }
 
@@ -477,7 +477,7 @@
     margin: 0;
     padding: 0;
     li {
-      font-size: 14px;
+      font-size: 12px;
       font-weight: 600;
       font-family: $title-font;
       color: $title-color;
@@ -488,7 +488,7 @@
       span {
         display: block;
         font-family: $body-font;
-        font-size: 18px;
+        font-size: 15px;
         font-weight: 400;
         text-transform: capitalize;
         margin-bottom: 6px;

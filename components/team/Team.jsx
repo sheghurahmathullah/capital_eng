@@ -7,7 +7,7 @@ export default function Team() {
     <div className="team-area-1 space overflow-hidden">
       <div className="container">
 
-      <h3 className="pb-3">Board of Directors</h3>
+        <h3 className="pb-3">Board of Directors</h3>
         <div className="row gy-4 justify-content-center">
           {/* Board of Directors */}
           <div className="col-lg-3 col-md-6">
@@ -183,23 +183,23 @@ export default function Team() {
                 <h4 style={{ color: "#081761" }}>Engr. Ravikumar M</h4>
               </Link>
               <span className="fw-bold" style={{ marginTop: "27px", display: "inline-block" }}>
-  Head of Operations <br /> Ras Al Khaimah
-</span>
+                Head of Operations <br /> Ras Al Khaimah
+              </span>
             </div>
           </div>
           <div className="col-lg-3 col-md-6">
             <div className="team-card">
               <Link href="/mr-saravanan-ellappan">
-              <div className="team-card_img" style={{ height: "458px", overflow: "hidden" }}>
-  <Image
-    src="/assets/img/team/Mr. Saravanan Ellappan - Operations Manager.JPG"
-    alt="Mr. Saravanan Ellappan"
-    width={308}
-    height={450} // Increased height to 450
-    layout="fixed"
-    style={{ height: "450px", objectFit: "cover" }} // Ensure inline height is applied
-  />
-</div>
+                <div className="team-card_img" style={{ height: "420px", overflow: "hidden" }}>
+                  <Image
+                    src="/assets/img/team/Mr. Saravanan Ellappan - Operations Manager.JPG"
+                    alt="Mr. Saravanan Ellappan"
+                    width={308}
+                    height={450} // Increased height to 450
+                    layout="fixed"
+                    style={{ height: "450px", objectFit: "cover" }} // Ensure inline height is applied
+                  />
+                </div>
 
                 <h4 style={{ color: "#081761" }}>Mr. Saravanan Ellappan</h4>
               </Link>
@@ -242,7 +242,7 @@ export default function Team() {
           </div>
         </div>
 
-       
+
       </div>
     </div>
   );

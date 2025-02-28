@@ -19,69 +19,19 @@ export const menuItems = [
     id: 6,
     title: "OUR EXPERTISE",
     subMenuItems: [
-      {
-        id: 61,
-        title: "Design",
-        subMenuItems: [
-          {
-            id: 611,
-            label: "Architecture & Design",
-            link: "/architecture-and-design",
-          },
-          {
-            id: 612,
-            label: "Fit Out & Interior Design",
-            link: "/fitout-and-interiordesign",
-          },
-          { id: 613, label: "Landscape Architecture", link: "/landscaping" },
-          { id: 614, label: "Road & Infrastructure", link: "/roads-design" },
-        ],
-      },
-      {
-        id: 62,
-        title: "Engineer",
-        subMenuItems: [
-          { id: 621, label: "BIM Services", link: "/bim-services" },
-          { id: 622, label: "MEP Design and Services", link: "/mep-design" },
-          {
-            id: 623,
-            label: "Structural Engineering",
-            link: "/structural-engineering",
-          },
-          {
-            id: 624,
-            label: "Process Instrumentation Pipeline Design",
-            link: "/process-instrumentation-pipeline-design",
-          },
-        ],
-      },
-      {
-        id: 63,
-        title: "Manage",
-        subMenuItems: [
-          {
-            id: 631,
-            label: "Project Management Consultancy",
-            link: "/project-management-consultancy",
-          },
-          {
-            id: 632,
-            label: "Environmental Solutions",
-            link: "/environmental-solutions",
-          },
-          {
-            id: 633,
-            label: "Construction Management",
-            link: "/construction-management",
-          },
-          {
-            id: 634,
-            label: "Water & Waste Management",
-            link: "/water-waste-management",
-          },
-        ],
-      },
-    ],
+      { id: 611, label: "Architecture & Design", link: "/architecture-and-design" },
+      { id: 612, label: "Fit Out & Interior Design", link: "/fitout-and-interiordesign" },
+      { id: 613, label: "Landscape Architecture", link: "/landscaping" },
+      { id: 614, label: "Road & Infrastructure", link: "/roads-design" },
+      { id: 621, label: "BIM Services", link: "/bim-services" },
+      { id: 622, label: "MEP Design and Services", link: "/mep-design" },
+      { id: 623, label: "Structural Engineering", link: "/structural-engineering" },
+      { id: 624, label: "Process Instrumentation Pipeline Design", link: "/process-instrumentation-pipeline-design" },
+      { id: 631, label: "Project Management Consultancy", link: "/project-management-consultancy" },
+      { id: 632, label: "Environmental Solutions", link: "/environmental-solutions" },
+      { id: 633, label: "Construction Management", link: "/construction-management" },
+      { id: 634, label: "Water & Waste Management", link: "/water-waste-management" }
+    ]    
   },
   {
     id: 7,
@@ -127,11 +77,11 @@ export const menuItems = [
   // },
 
   
-  {
-    id: 6,
-    title: "PORTFOLIO",
-    link: "/portfolio",
-  },
+  // {
+  //   id: 6,
+  //   title: "PORTFOLIO",
+  //   link: "/portfolio",
+  // },
   {
     id: 2,
     title: "NEWSROOM",
