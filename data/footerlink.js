@@ -1,12 +1,12 @@
 export const links = [
   { id: 1, href: "/about", text: "ABOUT COMPANY" },
-  { id: 2, href: "/project", text: "OUR CAREERS" },
-  { id: 3, href: "/service", text: "SERVICES" },
+  { id: 2, href: "/portfolio", text: "PORTFOLIO" },
+  { id: 3, href: "/team", text: "OUR TEAM" },
   { id: 4, href: "/contact", text: "CONTACT" },
 ];
 export const links2 = [
   { id: 5, href: "/privacy-policy", text: "PRIVACY POLICY" },
-  { id: 6, href: "/terms-conditions", text: "TERMS & CONDITIONS" },
+  { id: 6, href: "/Termsofuse", text: "TERMS & CONDITIONS" },
 ];
 export const links3 = [
   { id: 7, href: "/about", text: "About Us" },
