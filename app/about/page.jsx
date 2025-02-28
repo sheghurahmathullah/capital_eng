@@ -29,9 +29,10 @@ export default function AboutPage() {
       <MessageCeo/>
       <Vision />
       <Team />
-      <Contact />
+      
       <Clients />
-      <MarqueeComponent />
+      <Contact />
+      {/* <MarqueeComponent /> */}
       <Footer8 />
     </>
   );

@@ -16,7 +16,7 @@ export const metadata = {
         <Header3 />
         <Breadcumb/>
         <ServiceDetails />
-        <CtaForm/>
+        {/* <CtaForm/> */} 
         <MarqueeComponent />
         <Footer8 />
       </>

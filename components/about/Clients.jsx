@@ -1,52 +1,52 @@
-import { clients } from "@/data/clients";
+"use client";
+import Marquee from "react-fast-marquee";
 import Image from "next/image";
-import React from "react";
+import { clients } from "@/data/clients";
 
 export default function Clients() {
   return (
-    <div className="client-area-1 overflow-hidden space">
-      <div className="container">
-        <div className="row justify-content-center">
-          <div className="col-xl-8">
-            <ul className="client-list-wrap">
-              {clients.map((elm, i) => (
-                <li key={i}>
-                  <a href={elm.href}>
-                    <span className="link-effect">
-                      <span className="effect-1">
-                        <Image
-                          width={164}
-                          height={45}
-                          style={{
-                            objectFit: "contain",
-                            width: "162px",
-                            height: "35px",
-                          }}
-                          src={elm.img}
-                          alt="img"
-                        />
-                      </span>
-                      <span className="effect-1">
-                        <Image
-                          width={164}
-                          height={45}
-                          style={{
-                            objectFit: "contain",
-                            width: "162px",
-                            height: "35px",
-                          }}
-                          src={elm.img}
-                          alt="img"
-                        />
-                      </span>
-                    </span>
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
+    <div className="container-fluid space-bottom">
+      {/* Section Title */}
+      <div className="text-center mb-4">
+      <h2 className="text-center my-4">Our Clients</h2>
+        <p className="text-muted">Trusted by leading brands worldwide</p>
       </div>
+
+      {/* Marquee Client Logos */}
+      <div className="client-marquee-wrap">
+        <Marquee pauseOnHover={true} speed={50} gradient={false}>
+          {clients.map((client, index) => (
+            <div key={index} className="client-logo mx-4">
+              <a href={client.href}>
+                <Image
+                  src={client.img}
+                  width={164}
+                  height={45}
+                  alt="Client Logo"
+                  className="img-fluid"
+                  style={{ objectFit: "contain", maxWidth: "140px" }}
+                />
+              </a>
+            </div>
+          ))}
+        </Marquee>
+      </div>
+
+      {/* Custom CSS */}
+      <style jsx>{`
+        .client-marquee-wrap {
+          padding: 20px 0;
+        }
+        .client-logo {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          transition: transform 0.3s ease-in-out;
+        }
+        .client-logo:hover {
+          transform: scale(1.1);
+        }
+      `}</style>
     </div>
   );
 }

@@ -26,14 +26,14 @@
 
 .marquee-wrap {
     background: #000000;
-    padding: 31px 0;
+    padding: 24px 0;
     .marquee__group {
         .m-item {
             margin-right: 25px;
             display: inline;
             a {
                 color: $smoke-color;
-                font-size: 36px;
+                font-size: 20px !important;
                 font-weight: 600;
                 font-family: $title-font;
                 i {
@@ -41,13 +41,13 @@
                     margin-right: 20px;
                 }
                 @include sm {
-                    font-size: 30px;
+                    font-size: 16px;
                 }
                 @include xs {
-                    font-size: 24px;
+                    font-size: 14px;
                 }
                 @include vxs {
-                    font-size: 20px;
+                    font-size: 12px;
                 }
             }
         }
@@ -76,7 +76,7 @@
         }
     }
     .counter-card_number {
-        font-size: 48px;
+        font-size: 32px;
         letter-spacing: -0.96px;
         display: flex;
         margin-bottom: 0;

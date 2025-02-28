@@ -49,7 +49,7 @@ export default function Awards() {
             {/* Adding space after philosophy */}
             <div className="mb-5" />  {/* Added gap after the last philosophy section */}
 
-            <h2 className="text-center my-4">Awards</h2>
+            <h2 className="text-center my-4">Awards and Recognitions</h2>
             <ul className="award-wrap-area">
               {awardsData.map((elm, i) => (
                 <li key={i} className="single-award-list">

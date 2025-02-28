@@ -23,7 +23,7 @@ export default function ContactInfo() {
 
         {/* Offices around the world section */}
         <div className="text-center mb-5">
-          <h2 style={{ marginBottom: "30px", fontSize: "50px", marginTop: "20px" }}>Our Offices Around the World</h2>
+          <h2 style={{ marginBottom: "30px", fontSize: "35px", marginTop: "20px" }}>Our Offices Around the World</h2>
           <p style={{ marginBottom: "100px", fontSize: "20px" }}>
             Connect with one of our global offices... or feel free to just send us a nifty postcard. We won't mind!
           </p>

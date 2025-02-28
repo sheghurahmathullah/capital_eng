@@ -19,7 +19,7 @@
 .counter-card {
     max-width: 320px;
     &_number {
-        font-size: 60px;
+        font-size: 40px;
         font-weight: 600;
         margin-bottom: 18px;
     }
@@ -27,7 +27,7 @@
         font-weight: 600;
     }
     &_text {
-        font-size: 18px;
+        font-size: 16px;
         margin-bottom: -0.2em;
     }
 }
@@ -36,7 +36,7 @@
         left: -30px;
     }
     .counter-card_number {
-        font-size: 45px;
+        font-size: 30px;
     }
 }
 @include lg {
@@ -55,7 +55,7 @@
 }
 @include sm {
     .counter-card_number {
-        font-size: 40px;
+        font-size: 28px;
     }
     .counter-card {
         max-width: none;

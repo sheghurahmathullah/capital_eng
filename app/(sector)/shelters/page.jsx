@@ -25,7 +25,7 @@ export default function ProjectPageDetails({ params }) {
       <Breadcumb2 />
       <SectorDetails />
      
-      <CtaForm/>
+      {/* <CtaForm/> */}
       <MarqueeComponent />
       <Footer8 />
     </>
