@@ -22,7 +22,7 @@ export default function Projects3() {
                   </Link>
                 </div>
                 <div className="portfolio-details">
-                  <h3 className="portfolio-title mb-3" style={{fontSize:"30px"}}>
+                  <h3 className="portfolio-title mb-3" style={{fontSize:"20px"}}>
                     <Link scroll={false} href={elm.link}>
                       {elm.title}
                     </Link>
@@ -41,7 +41,7 @@ export default function Projects3() {
                   </ul>
                 </div>
                 <div className="portfolio-button">
-                  <Link scroll={false} className="btn" href={elm.link}>
+                  <Link scroll={false} className="btn" href={elm.link} style={{fontSize:"10px",padding:"15px 20px 10px 20px",borderRadius:"4px"}}>
                     <span className="link-effect">
                       <span className="effect-1">{elm.buttonText}</span>
                       <span className="effect-1">{elm.buttonText}</span>
