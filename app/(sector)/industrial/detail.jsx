@@ -173,9 +173,9 @@ export default function SectorDetails() {
 <b>• Process Optimization:</b> Developing layouts that boost efficiency and reduce downtime.<br/>
 <b>• Energy-Efficient Systems:</b> Minimizing operational costs while promoting sustainability.<br/>
 <b>• Advanced Technologies:</b> Leveraging smart tools and innovative engineering for superior performance.<br/>
-From initial planning to execution, we ensure every detail aligns with your goals, delivering facilities that are scalable, durable, and aligned with industry trends.
+{/* From initial planning to execution, we ensure every detail aligns with your goals, delivering facilities that are scalable, durable, and aligned with industry trends. */}
             </p>
-            <h3 className="mt-35">Why Choose Us?</h3>
+            {/* <h3 className="mt-35">Why Choose Us?</h3>
             <p className="sec-text mb-n1">
             <b>• Operational Focus:</b> Facilities designed to streamline production and logistics.<br/>
 <b>• Expert Guidance:</b> End-to-end support, from planning to execution.<br/>
@@ -186,7 +186,7 @@ From initial planning to execution, we ensure every detail aligns with your goal
             <h3 className="mt-35">Let’s Build Your Future Together</h3>
             <p className="sec-text mb-n1">
             At Capital Engineering Consultancy, we turn your industrial vision into a reality, crafting spaces that drive growth and innovation. Your path to industrial excellence starts here.
-            </p>
+            </p> */}
           </div>
         </div>
       </div>

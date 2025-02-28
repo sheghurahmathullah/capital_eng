@@ -178,10 +178,15 @@ export default function SectorDetails() {
 <b>• Sustainability Integration:</b> Embedding eco-friendly practices to create infrastructure that lasts for generations.
 
             </p>
-            <h3 className="mt-35">Shaping the Nation’s Future Together</h3>
+            {/* <h3 className="mt-35">Shaping the Nation’s Future Together</h3>
             <p className="sec-text mb-n1">
             At Capital Engineering Consultancy, we don’t just build infrastructure; we create the foundation for societal advancement. Together, let’s turn your vision into reality, empowering communities and shaping the UAE’s global leadership.
 
+<<<<<<< HEAD
+            </p> */}
+          </div>
+
+=======
             </p>
           </div>
           {/* <div className="col-lg-12">
@@ -206,6 +211,7 @@ export default function SectorDetails() {
               </a>
             </div>
           </div> */}
+>>>>>>> b0f4bc4c5785f0382ccda02e3a7b7f300215731b
         </div>
       </div>
     </div>

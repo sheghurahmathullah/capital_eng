@@ -191,12 +191,12 @@ export default function SectorDetails() {
               office spaces into cohesive developments that cater to diverse
               user needs.
               <br />
-              Our portfolio includes iconic projects like Lulu Group
+              {/* Our portfolio includes iconic projects like Lulu Group
               International, YKM Office, Talal Hypermarket, and Ramez Mall,
               demonstrating our ability to deliver spaces that prioritize
-              functionality and user experience.
+              functionality and user experience. */}
             </p>
-            <h3 className="mt-35">
+            {/* <h3 className="mt-35">
               Proven Expertise in Commercial Developments
             </h3>
             <p className="sec-text mb-n1">
@@ -215,7 +215,7 @@ export default function SectorDetails() {
               impressions. Let’s collaborate to bring your business vision to
               life with expert precision and engineering excellence. Contact us
               today to start building commercial spaces that inspire success.
-            </p>
+            </p> */}
           </div>
         </div>
       </div>

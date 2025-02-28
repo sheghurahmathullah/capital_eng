@@ -176,14 +176,14 @@ Our personalised solutions include:<br/>
 <b>• Integrated Utilities:</b> Connecting power, telecommunications, and water systems seamlessly to support daily life.<br/>
 <b>• Public Safety Enhancements:</b> Designing eco-friendly lighting and pedestrian-friendly infrastructure to improve safety and accessibility.
             </p>
-            <h3 className="mt-35">Why Capital Engineering Consultancy?</h3>
+            {/* <h3 className="mt-35">Why Capital Engineering Consultancy?</h3>
             <p className="sec-text mb-n1">
             At Capital Engineering Consultancy, we focus on creating roads and infrastructure that support your community's growth and improve daily life. With a deep understanding of sector challenges, we design solutions tailored to your needs thereby integrating sustainability, functionality, and long-term resilience. From seamless road designs to advanced drainage and utility systems, our approach ensures precision, safety, and success at every stage of your project.
             </p>
             <h3 className="mt-35">Let’s Build the Future of Connectivity </h3>
             <p className="sec-text mb-n1">
             Roads and infrastructure are the foundation of thriving cities. Partner with Capital Engineering Consultancy to create systems that connect and sustain.
-            </p>
+            </p> */}
           </div>
         </div>
       </div>

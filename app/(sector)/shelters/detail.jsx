@@ -186,10 +186,10 @@ export default function SectorDetails() {
 <b>• Construction & Installation:</b> Using efficient techniques and high-quality materials, we deliver durable, reliable structures.<br/>
 <b>• Post-Construction Support:</b>  Ongoing maintenance and upgrades ensure shelters remain effective and resilient over time.
             </p>
-            <h3 className="mt-35">Partner With Us & Make a Difference</h3>
+            {/* <h3 className="mt-35">Partner With Us & Make a Difference</h3>
             <p className="sec-text mb-n1">
             At Capital Engineering Consultancy, we believe in creating more than shelters—we create secure spaces that protect what matters most. Together, we can build solutions that offer safety, peace of mind, and resilience in the face of any challenge. Partner with us to make a lasting difference.
-            </p>
+            </p> */}
           </div>
         </div>
       </div>
