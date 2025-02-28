@@ -167,7 +167,7 @@ export default function SectorDetails() {
               </p>
               
             </div>
-            <h3>How We Enhance Hospitality Spaces </h3>
+            {/* <h3>How We Enhance Hospitality Spaces </h3>
             <p className="sec-text mb-n1">
             We specialize in addressing the unique needs of the hospitality industry, ensuring every project reflects a commitment to excellence:<br/>
 <b>• Crafting Luxurious Spaces:</b> From boutique hotels to grand resorts, we design environments that inspire relaxation and provide a seamless guest experience.<br/>
@@ -181,7 +181,7 @@ export default function SectorDetails() {
             <h3 className="mt-35">Trusted by Leading Hospitality Brands</h3>
             <p className="sec-text mb-n1">
             We are committed to delivering excellence through close collaboration and attention to detail. Our designs go beyond expectations, ensuring projects are completed on time, within budget, and with a lasting impact. Let’s create spaces that leave lasting impressions.
-            </p>
+            </p> */}
           </div>
         </div>
       </div>

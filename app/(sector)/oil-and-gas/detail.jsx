@@ -177,7 +177,7 @@ export default function SectorDetails() {
 <b>• Offshore Platforms:</b> Designing strong platforms for offshore oil and gas operations to achieve excellence under the most challenging conditions.<br/>
 <b>• Sustainable Practices:</b> Promoting eco-friendly engineering solutions for a greener oil and gas industry.
             </p>
-            <h3 className="mt-35">Delivering Excellence Through Expertise</h3>
+            {/* <h3 className="mt-35">Delivering Excellence Through Expertise</h3>
             <p className="sec-text mb-n1">
             At Capital Engineering Consultancy, our promise of excellence is backed by:<br/>
 <b>• Personalized Solutions:</b> Building strategies designed to meet your specific operational goals.<br/>
@@ -189,7 +189,7 @@ export default function SectorDetails() {
             <p className="sec-text mb-n1">
             In the oil and gas industry, success requires more than technical skills - it requires vision, adaptability, and a commitment to progress.
 At Capital Engineering Consultancy, we stand by you as a trusted partner, helping you achieve operational excellence, modernise infrastructure, and embrace sustainable practices.
-            </p>
+            </p> */}
           </div>
         </div>
       </div>

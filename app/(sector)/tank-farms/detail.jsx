@@ -175,13 +175,13 @@ export default function SectorDetails() {
 <b>• Environmental Compliance:</b> By incorporating features like emission controls, wastewater treatment systems, and eco-friendly materials, we help your facility meet environmental regulations without compromising functionality.<br/>
 <b>• Integrated Infrastructure:</b> From tank piping systems to connected office blocks, we ensure all elements of your tank farm work for seamless operations.
             </p>
-            <h3 className="mt-35">Why Clients Trust Us with Tank Farm Projects</h3>
+            {/* <h3 className="mt-35">Why Clients Trust Us with Tank Farm Projects</h3>
             <p className="sec-text mb-n1">
             From site planning to operational integration, we collaborate closely with you to transform your vision into a high-performing, scalable facility. Our solutions adapt to future demands while ensuring operational safety, reliability, and sustainability.
 Tank farms are pivotal to efficient industrial and commercial operations. At Capital Engineering Consultancy, we help you navigate the complexities of tank farm development that enhance safety, reliability, and performance. 
 Partner with us to unlock smarter storage solutions for your business.
 
-            </p>
+            </p> */}
           </div>
           {/* <div className="col-lg-12">
             <div className="inner__page-nav space-top mt-n1 mb-n1">

@@ -11,18 +11,19 @@ export default function Footer1() {
         <div className="footer-top space">
           <div className="row align-items-center justify-content-between">
             <div className="col-lg-6">
-              <h2 className="footer-top-title">Let’s Work Together</h2>
+              <h2 className="footer-top-title">Let’s Build It Together</h2>
             </div>
             <div className="col-lg-5">
               <div className="footer-top-wrap">
                 <p className="mb-30">
-                  We are digital agency that helps businesses develop immersive
-                  and engaging user experiences
+                From concept to completion, we engineer success. Contact us today to bring your project to life!
+
+
                 </p>
                 <Link scroll={false} href="/contact" className="btn">
                   <span className="link-effect">
-                    <span className="effect-1">LET'S TALK WITH US</span>
-                    <span className="effect-1">LET'S TALK WITH US</span>
+                    <span className="effect-1">WORK WITH US</span>
+                    <span className="effect-1">WORK WITH US</span>
                   </span>
                 </Link>
               </div>
@@ -45,23 +46,25 @@ export default function Footer1() {
         </div>
       </div>
       <div className="copyright-wrap">
-        <div className="container">
-          <div className="row gy-3 justify-content-between align-items-center">
-            <div className="col-md-6">
-              <div className="social-btn style3">
-                <Socials />
-              </div>
-            </div>
-            <div className="col-md-6 align-self-center text-lg-end">
-              <p className="copyright-text">
-                Copyright © {new Date().getFullYear()}{" "}
-                <a href="https://themeforest.net/user/ib-themes/portfolio">
-                  ib-themes
-                </a>
-              </p>
-            </div>
-          </div>
-        </div>
+         <div className="container">
+           <div className="copyright-wrap">
+             <div className="row gy-3 justify-content-between align-items-center">
+               <div className="col-md-6">
+                 <p className="copyright-text">
+                   Copyright © {new Date().getFullYear()}{" "}
+                   <a href="https://themeforest.net/user/ib-themes/portfolio">
+                   Capital Engineering Consultancy LLC
+                   </a>
+                 </p>
+               </div>
+               <div className="col-md-6 align-self-center">
+                 <div className="social-btn style3 justify-content-md-end">
+                   <Socials />
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
       </div>
     </footer>
   );

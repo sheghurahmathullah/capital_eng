@@ -174,16 +174,16 @@ export default function SectorDetails() {
 <b>• Power Supply Systems:</b> Ensuring reliable power supply to electric trains through efficient infrastructure.<br/>
 <b>• Station Design and Development:</b> Creating passenger-friendly stations that enhance comfort and convenience.<br/>
 <b>• Depot and Maintenance Facilities:</b> Designing and optimizing facilities for efficient train maintenance and repair.<br/>
-We focus on delivering sustainable railway solutions by minimizing environmental impact, optimizing energy efficiency, and utilizing resources effectively. Our team of experienced engineers leverages cutting-edge technologies and industry best practices to provide innovative solutions.
+{/* We focus on delivering sustainable railway solutions by minimizing environmental impact, optimizing energy efficiency, and utilizing resources effectively. Our team of experienced engineers leverages cutting-edge technologies and industry best practices to provide innovative solutions. */}
             </p>
-            <h3 className="mt-35">Let’s Build the Future of Railways Together</h3>
+            {/* <h3 className="mt-35">Let’s Build the Future of Railways Together</h3>
             <p className="sec-text mb-n1">
             Collaborating with Capital Engineering Consultancy means partnering with experts who prioritize your success. From feasibility studies to commissioning, we support you at every stage, ensuring efficient, sustainable, and impactful outcomes:<br/>
 <b>• Optimized track design and construction:</b> Our team of experienced railway engineers possesses a deep understanding of track geometry, materials, and construction methodologies. We also focus on minimizing costs without compromising safety and ride quality.<br/>
 <b>• Enhanced rail system integration:</b> Modern railway systems are intricate networks of infrastructure. We specialize in seamless integration of signalling, communication, power supply, and station systems.<br/>
 <b>• Comprehensive project lifecycle support:</b> From feasibility studies to commissioning, we provide end-to-end guidance throughout the project lifecycle.<br/>
 Join us in transforming railway networks into engines of progress.
-            </p>
+            </p> */}
           </div>
         </div>
       </div>

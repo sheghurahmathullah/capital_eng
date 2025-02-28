@@ -179,7 +179,7 @@ Every educational institution is unique, and we align our expertise to your spec
 
 
             </p>
-            <h3 className="mt-35">Why Partner with Capital Engineering Consultancy?</h3>
+            {/* <h3 className="mt-35">Why Partner with Capital Engineering Consultancy?</h3>
             <p className="sec-text mb-n1">
             Our projects reflect our commitment to addressing the specific needs of schools and colleges, blending functionality with innovation to support holistic education.<br/>
 <b>• Education-Centric Expertise:</b> Our designs reflect a deep understanding of the challenges and opportunities in educational environments.<br/>
@@ -192,7 +192,7 @@ Every educational institution is unique, and we align our expertise to your spec
             <p className="sec-text mb-n1">
             From concept to completion, Capital Engineering Consultancy prioritizes precision, professionalism, and partnership. Let’s shape the future of education together.
 
-            </p>
+            </p> */}
           </div>
         </div>
       </div>

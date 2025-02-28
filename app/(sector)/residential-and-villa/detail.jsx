@@ -182,14 +182,14 @@ export default function SectorDetails() {
 <b>• Client-Centric Approach:</b> We listen, adapt, and ensure your project reflects your vision and goals.<br/>
 <b>• Risk-Free Investments:</b> Robust quality controls safeguard your project, guaranteeing long-term value.
             </p>
-            <h3 className="mt-35">Delivering Excellence in Residential Projects</h3>
+            {/* <h3 className="mt-35">Delivering Excellence in Residential Projects</h3>
             <p className="sec-text mb-n1">
             Our portfolio includes distinguished projects like Dima Kamal Villa, Eskan Private Villa, Abdullah Kalantar Villa, and Zanuba Villa, where we have transformed visions into stunning realities. Each project reflects our dedication to precision, creativity, and delivering on our client's unique requirements.
             </p>
             <h3 className="mt-35">Build Your Dream Residential Project with Us</h3>
             <p className="sec-text mb-n1">
             At Capital Engineering Consultancy, we take pride in creating residential spaces that resonate with elegance, functionality, and sustainability. Let's transform your vision into reality. 
-            </p>
+            </p> */}
           </div>
         </div>
       </div>

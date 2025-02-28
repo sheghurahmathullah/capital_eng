@@ -178,10 +178,10 @@ export default function SectorDetails() {
 <b>• Customized Designs:</b> Crafting layouts that honour the sacred purpose while ensuring functionality.<br/>
 <b>• Precision in Execution:</b> From design to site supervision, we ensure every step upholds the highest standards.
             </p>
-            <h3 className="mt-35">Building Legacies of Faith</h3>
+            {/* <h3 className="mt-35">Building Legacies of Faith</h3>
             <p className="sec-text mb-n1">
             At Capital Engineering Consultancy, we take pride in contributing to the cultural heritage by delivering religious projects that uphold spiritual values and aesthetic excellence. Let us support your vision with expertise and integrity, creating spaces that resonate deeply with communities. 
-            </p>
+            </p> */}
           </div>
         </div>
       </div>

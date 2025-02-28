@@ -175,7 +175,7 @@ export default function SectorDetails() {
 <b>• Renewable Integration:</b> Facilitating the seamless incorporation of renewable energy sources into existing systems for greener, cost-effective operations.<br/>
 <b>• Modern Grid Solutions:</b> Smart grid systems designed to balance loads, reduce energy loss, and adapt to future demand growth.
             </p>
-            <h3 className="mt-35">Why Partner with Us?</h3>
+            {/* <h3 className="mt-35">Why Partner with Us?</h3>
             <p className="sec-text mb-n1">
             Power projects demand precision, innovation, and a deep understanding of industry requirements. At Capital Engineering Consultancy, we provide sector-focused solutions that address the unique needs of the energy industry:<br/>
 <b>• Integrated Design Approach:</b> Seamlessly blending civil, architectural, structural, and MEP engineering to deliver cohesive solutions.<br/>
@@ -186,7 +186,7 @@ export default function SectorDetails() {
             <h3 className="mt-35">Driving Change, Powering the Future</h3>
             <p className="sec-text mb-n1">
             At Capital Engineering Consultancy, we go beyond engineering to create energy solutions that transform industries and communities. From waste-to-energy facilities to Energy Facility to grid modernization, we are here to power your progress.
-            </p>
+            </p> */}
           </div>
         </div>
       </div>

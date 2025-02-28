@@ -178,34 +178,13 @@ export default function SectorDetails() {
 <b>• Sustainability Integration:</b> Embedding eco-friendly practices to create infrastructure that lasts for generations.
 
             </p>
-            <h3 className="mt-35">Shaping the Nation’s Future Together</h3>
+            {/* <h3 className="mt-35">Shaping the Nation’s Future Together</h3>
             <p className="sec-text mb-n1">
             At Capital Engineering Consultancy, we don’t just build infrastructure; we create the foundation for societal advancement. Together, let’s turn your vision into reality, empowering communities and shaping the UAE’s global leadership.
 
-            </p>
+            </p> */}
           </div>
-          <div className="col-lg-12">
-            <div className="inner__page-nav space-top mt-n1 mb-n1">
-              <a href="#" className="nav-btn">
-                <i className="fa fa-arrow-left"></i>
-                <span>
-                  <span className="link-effect">
-                    <span className="effect-1">Previous Post</span>
-                    <span className="effect-1">Previous Post</span>
-                  </span>
-                </span>
-              </a>
-              <a href="#" className="nav-btn">
-                <span>
-                  <span className="link-effect">
-                    <span className="effect-1">Next Post</span>
-                    <span className="effect-1">Next Post</span>
-                  </span>
-                </span>
-                <i className="fa fa-arrow-right"></i>
-              </a>
-            </div>
-          </div>
+
         </div>
       </div>
     </div>

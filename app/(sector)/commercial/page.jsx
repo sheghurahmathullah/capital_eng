@@ -1,5 +1,5 @@
 import MarqueeComponent from "@/components/common/Marquee";
-import Footer8 from "@/components/footers/Footer8";
+import Footer1 from "@/components/footers/Footer1";
 import Header3 from "@/components/headers/Header3";
 import Breadcumb2 from "./breadcumb";
 import CtaForm from "@/components/CTA/cta";
@@ -25,7 +25,7 @@ export default function ProjectPageDetails({ params }) {
       <SectorDetails />
       <CtaForm/>
       <MarqueeComponent />
-      <Footer8 />
+      <Footer1 />
     </>
   );
 }

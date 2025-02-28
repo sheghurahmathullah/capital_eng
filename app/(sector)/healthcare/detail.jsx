@@ -178,7 +178,7 @@ export default function SectorDetails() {
 <b>•	Integrated Complexes:</b> Unified spaces that bring multiple medical services under one roof for seamless care.
 
             </p>
-            <h3 className="mt-35">Delivering Value Through Expertise</h3>
+            {/* <h3 className="mt-35">Delivering Value Through Expertise</h3>
             <p className="sec-text mb-n1">
             <b>• Customized Solutions:</b> Tailored designs that align with your care delivery and operational goals.<br/>
 <b>• Regulatory Compliance:</b> Ensuring adherence to healthcare standards for safety and quality.<br/>
@@ -188,7 +188,7 @@ export default function SectorDetails() {
             <h3 className="mt-35">Partner with Us for Better Healthcare</h3>
             <p className="sec-text mb-n1">
             Better healthcare starts with better infrastructure. At Capital Engineering Consultancy, we help you build innovative, patient-focused spaces that drive exceptional outcomes.
-            </p>
+            </p> */}
           </div>
         </div>
       </div>
